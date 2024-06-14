@@ -1,0 +1,262 @@
+
+
+.header{
+display: flex;
+flex-direction: row;
+margin: 5rem 5rem;
+justify-content: space-between;
+
+
+
+} 
+.section-padding {
+
+
+}
+#home{
+
+}
+
+.header-content {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+margin-right: 5rem;
+
+}
+.header-content h1{
+
+color: whitesmoke;
+font-family: Manrope;
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: left;
+
+padding-bottom: 5rem;
+color: var(--gradient-text);
+
+
+}
+
+.header-content p {
+
+font-family: Manrope;
+font-size: 20px;
+font-weight: 800;
+line-height: 27.32px;
+text-align: left;
+color: rgba(129, 175, 221, 1);
+
+
+}
+
+
+
+.gradient-text {
+
+
+}
+
+.header-content-input{
+
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.header-content-input input{
+
+    flex: 2;
+    background-color: whitesmoke;
+
+
+    display: inline-block;
+  
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  text-align: center;
+  min-height: 50px;
+  line-height: 27px;
+
+  padding: 0 1rem;
+  outline: none;
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0 1rem;
+  border: none;
+  width: 100%; /* Make the button take full width of its container */
+  max-width: 300px; /* Maximum width for larger screens */
+}
+
+.header-content-input button {
+background-color: orangered;
+flex: 0.1;
+border-radius: 0px 5px 5px 0px;
+cursor: pointer;
+min-height: 50px;
+font-weight: bold;
+font-size: 15px;
+padding: 0 1rem;
+border: none;
+
+  
+    
+}
+
+
+
+
+.header-content-people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+
+
+}
+
+.header-content-people img{
+
+    width: 100%;
+    display: flex;
+    width: 181.79px;
+    height: 38px;
+}
+
+.header-content-people p{
+
+    margin-left: 1rem;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.header-image {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    align-items: flex-end;
+    height: auto;
+}
+
+.header-image img{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+}
+
+
+@media screen and (max-width: 1400px){
+    .header{
+        flex-direction: row;
+    }
+ 
+    .header-content{
+        margin: 0 0 3rem;
+    }
+    .header-image img{
+      
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+
+       
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+ 
+    .header-content{
+        margin: 0 0 3rem;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .header{flex-direction: column;}
+    .header-content h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .header-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header-content-people{
+        flex-direction: column;
+    }
+    .header-content-people p{
+        margin: 0;
+        
+    }
+    .header-content-input input, .header-content-input button{
+    font-size: 16px;
+     line-height: 24px;
+    }
+    .header-image {
+        flex-direction: column;
+        display: block;
+        margin: auto;
+        align-items: flex-end;
+        
+    }
+    
+}
+  
+    
+
+
+@media screen and (max-width: 490px){
+    .header{flex-direction: column;}
+    .header-content h1{
+        font-size: 36px;
+        line-height: 24px;
+    }
+    .header-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .header-content-people{
+        flex-direction: column;
+    }
+    .header-content-people p{
+        margin: 0;
+        
+    }
+    .header-content-input input, .header-content-input button{
+    font-size: 12px;
+     line-height: 16px;
+    }
+    .header-image {
+        flex-direction: column;
+        display: block;
+        margin: auto;
+        order: 2;
+        align-items: center;
+    }
+    
+}
+  
+    
+
+
+
+
+  

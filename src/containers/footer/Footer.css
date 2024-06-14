@@ -1,0 +1,165 @@
+
+  
+  /* Footer Container */
+  .footer {
+    
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .heading {
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .footer .heading h1 {
+font-family: var(--font-family);
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: center;
+color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+;
+
+  }
+  
+  
+  
+  /* Button */
+  .btn {
+    
+
+    border: 1px solid #FFFFFF
+    
+  }
+  
+  .btn p {
+  
+    color: white;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+
+  }
+  
+  .footer .btn:hover {
+    background-color: #ff7a59;
+  }
+  
+  /* Links Section */
+  .footer .links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  .links_logo {
+    text-align: left;
+    justify-content: flex-start;
+    width: 168px;
+     height: 85px;
+
+
+  }
+  
+  .links_logo img {
+width: 118px;
+height: 30px;
+top: 5260px;
+left: 208px;
+gap: 0px;
+opacity: 0px;
+
+
+  }
+  
+.links_logo p {
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: white;
+    padding-top: 1rem;
+    
+  }
+  
+.footer-links-div {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+  }
+  
+.footer-links-div h4 {
+    margin-bottom: 10px;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    color: #FFFFFF;
+   
+
+    
+
+
+  }
+  
+  .footer-links-div p {
+    color: #FFFFFF;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+   
+
+
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .footer-links-div p:hover {
+    color: #ff4820;
+  }
+  
+  /* Copyright */
+  .copyright{
+
+  }
+ .copyright p {
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: #FFFFFF;
+
+    
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 690px) {
+    .footer .links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .footer-links-div {
+      margin-bottom: 20px;
+    }
+  
+    .footer .footer-links-div h4,
+    .footer .footer-links-div p {
+      text-align: center;
+    }
+  }
+  
